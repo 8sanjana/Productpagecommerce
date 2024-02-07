@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Product Name</h1>
+  </header>
+
+  <section class="product-info">
+    <img src="product-image.jpg" alt="Product Image">
+    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Price: $99.99</p>
+    <button class="cta-button">Add to Cart</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 E-commerce Store</p>
+  </footer>
+
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.product-info {
+  text-align: center;
+  padding: 2em;
+}
+
+.product-info img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.cta-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
